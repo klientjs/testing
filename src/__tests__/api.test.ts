@@ -5,8 +5,8 @@
 import axios from 'axios';
 import jwtDecode from 'jwt-decode';
 
-import { mockAxiosWithRestApi } from '../src';
-import RestApi from '../src/api/api';
+import { mockAxiosWithRestApi } from '..';
+import RestApi from '../api/api';
 
 let createdPostId: null | string = null;
 
