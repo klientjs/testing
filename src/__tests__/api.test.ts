@@ -401,7 +401,6 @@ test('resource:update:forbidden', async () => {
       customCredentials = data;
     });
 
-  console.log(createdPostId);
   await axios
     .request({
       url: `/posts/${createdPostId}`,
